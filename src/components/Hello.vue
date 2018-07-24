@@ -3,6 +3,7 @@
         <div class="whats-new-container">
             <div class="value">Application Name: Pivot</div>
             <div class="value">Application Name: ORCA</div>
+            <div class="value">Application Name: COMET</div>
         </div>
     </div>
 </template>
