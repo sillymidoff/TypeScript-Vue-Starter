@@ -1,9 +1,9 @@
-<!-- src/components/Hello.vue -->
 <template>
     <div>
-        <div class="greeting">Hello {{name}}{{exclamationMarks}}</div>
-        <button @click="decrement">-</button>
-        <button @click="increment">+</button>
+        <div class="whats-new-container">
+            <div class="value">Application Name: Pivot</div>
+            <div class="value">Application Name: ORCA</div>
+        </div>
     </div>
 </template>
 
@@ -34,7 +34,15 @@ export default Vue.extend({
 </script>
 
 <style>
-.greeting {
-    font-size: 20px;
+.whats-new-container {
+  display: flex;
+  justify-content: space-between;
 }
+
+.value {
+  background: #D3D3D3;
+  border: 2px solid black;
+  padding: 50px;
+}
+
 </style>
